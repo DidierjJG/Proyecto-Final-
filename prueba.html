@@ -5,9 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Página Web</title>
 </head>
+ <style>
+body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .btn-comprar-basico {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none; /* Quita el subrayado si fuera un enlace */
+            display: inline-block;
+            font-size: 18px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px; /* Bordes redondeados */
+            transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+        }
+
+        .btn-comprar-basico:hover {
+            background-color: #45a049; /* Verde un poco más oscuro al pasar el ratón */
+        }
+    </style>
+</head>
 <body>
-    <h1>¡Hola, Mundo!</h1>
-    <p>Esta es una página web HTML muy simple.</p>
-    <p>Espero que te sea útil.</p>
-</body>
+    <a href="#" class="btn-comprar-basico">Añadir al Carrito</a>
+    </body>
 </html>
